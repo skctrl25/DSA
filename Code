@@ -55,12 +55,11 @@ public class Solution {
         return res;
     }
 
-    // Example usage
+    // Example 
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] fruits = {2, 3, 5, 1};
         int[] baskets = {3, 1, 4, 2};
         int result = sol.numOfUnplacedFruits(fruits, baskets);
-        System.out.println("Unplaced fruits: " + result);
-    }
+        System.out.println("Unplaced fruits: " + result)    }
 }
